@@ -9,7 +9,12 @@ Hi, this is a scaffold generator for Laravel 5.2. (Laravel scaffold for Laravel 
 ### Step 1: Install Through Composer
 
 ```
-composer require 'laralib/l5scaffold' --dev
+composer config repositories.l5scaffold vcs https://github.com/gabelab2bora/l5scaffold.git
+composer require 'laralib/l5scaffold:dev-patch-laravel5.7' --dev
+```
+
+```
+composer require 'laralib/
 ```
 
 ### Step 2: Add the Service Provider
